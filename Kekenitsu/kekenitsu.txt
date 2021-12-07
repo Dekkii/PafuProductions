@@ -1,0 +1,136 @@
+Kekenitsu Level Plan:
+
+The structure is shaped like a crystal.
+Each floor is square, has a number of levels, as well as a locked door at the top with something inside.
+At the bottom of the room there are stairs. Stairs up are unusable and cosmetic. Stairs down open when you win all levels.
+
+
+
+
+FLOOR 1
+---------
+Levels: 1
+Difficulty: Learn Controls
+Collectibles inside levels: None
+Stairs Up: None
+Stairs Down: Bottom Right
+Top Door Lock: When you beat the last level, you appear here and the entrance is open again for you to win the game
+Inside Top Door: You enter from here at start of the game
+
+
+
+FLOOR 2
+----------
+Levels: 4
+Difficulty: Tutorial
+Collectibles inside levels: 1 Crystal
+Stairs Up: Bottom Center
+Stairs Down: Bottom Right
+Top Door Lock: Requires 1 Crystal
+Inside Top Door: Extra level, gives you a Piece of Crystal Statue
+
+
+
+FLOOR 3
+----------
+Levels: 9
+Difficulty: Easy
+Collectibles inside levels: 1 Crystal
+Stairs Up: Bottom Center
+Stairs Down: Bottom Right
+Top Door Lock: Requires 1 Crystal
+Inside Top Door: Extra level, gives you a Piece of Crystal Statue
+
+
+
+
+FLOOR 4
+----------
+Levels: 16
+Difficulty: Medium
+Collectibles inside levels: 2 Crystals
+Stairs Up: Bottom Center
+Stairs Down: Bottom Right
+Top Door Lock: Requires 1 Crystal
+Inside Top Door: Extra level, gives you a Piece of Crystal Statue
+
+
+
+
+FLOOR 5
+----------
+Levels: 9
+Difficulty: Hard
+Collectibles inside levels: 1 Crystal
+Stairs Up: Bottom Left
+Stairs Down: Bottom Right
+Top Door Lock: Requires 1 Crystal
+Inside Top Door: Extra level, gives you a Piece of Crystal Statue
+
+
+
+
+FLOOR 6
+----------
+Levels: 4
+Difficulty: Very Hard
+Collectibles inside levels: 1 Crystal
+Stairs Up: Bottom Left
+Stairs Down: Bottom Right
+Top Door Lock: Requires 2 Crystals
+Inside Top Door: Extra level, gives you a Crystal Orb, if you collected all the Statue Pieces, you can place it in this level to teleport to the Secret Floor
+
+
+
+
+FLOOR 7
+----------
+Levels: 1
+Difficulty: Final
+Collectibles inside levels: Crystal Scepter (required)
+Stairs Up: Bottom Left
+Stairs Down: None
+Top Door Lock: 2 Crystal Keys
+Inside Top Door: The last secret level, gives you a Crystal Crown
+
+
+
+After collecting the Scepter, you are teleported back to Floor 1, and exit is open. Go through it to win the game and see all the crystal stuff you manged to collect.
+
+
+
+
+
+SECRET FLOOR
+------------
+
+Is shaped like this:
+
+K's 	J's
+o       o
+
+o       o
+
+o       o
+    o
+
+    o
+	
+	
+You start from the bottom, and unlock levels as you go.
+From Final K and final J level you get one Crystal Key each.
+Once you walk through the portal, you go back to the level where you placed the Statue. If you collect the Orb, you finish the level and get the statue back, but you cannot enter the level or the secret floor again.
+
+
+
+
+FINAL COLLECTIBLES
+------------------
+Crystal Scepter
+Statue Piece / Unfinished Statue / Crystal Statue
+Crystal Orb
+Crystal / Crystals / Crystal Key / Two Crystal Keys / Crystal Crown
+
+
+
+
