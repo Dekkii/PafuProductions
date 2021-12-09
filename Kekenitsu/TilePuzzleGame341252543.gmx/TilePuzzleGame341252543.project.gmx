@@ -111,6 +111,12 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
+    <rooms name="LevelsK">
+      <room>rooms\room17</room>
+      <room>rooms\room16</room>
+      <room>rooms\collapsed01</room>
+      <room>rooms\room13</room>
+    </rooms>
     <room>rooms\room3</room>
     <room>rooms\rm_test02</room>
     <room>rooms\follower</room>
@@ -118,10 +124,6 @@
     <room>rooms\rm_lvl0001</room>
     <room>rooms\clocckwisetest</room>
     <room>rooms\template</room>
-    <rooms name="LevelsK">
-      <room>rooms\collapsed01</room>
-      <room>rooms\room13</room>
-    </rooms>
     <rooms name="LevelsJ">
       <room>rooms\Key_Islands</room>
       <room>rooms\Dirty_Tunnel</room>
