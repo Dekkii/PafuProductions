@@ -181,6 +181,7 @@ charas = {
 }
 
 ids = ["morgan", "kray", "bro", "miranda", "thiccboi", "terrian", "tridain", "chloe", "cecilia"]
+defeats = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 dia = {
     "intro" : {
@@ -5728,6 +5729,23 @@ descs = {
     },
 }
 
+def Save():
+    f = open("save.sav", "w")
+    strSave = ""
+    for i in range(9):
+        strSave += str(defeats[i])
+    f.write(strSave)
+    f.close()
+    
+def Load():
+    try:
+        f = open("save.sav", "r")
+        strLoad = f.read()
+        for i in range(9):
+            defeats[i] = int(strLoad[i])
+    except:
+        Save()
+
 def PrintLog():
     print ("\n\n\n !----- UPDATE LOG ----!\n\n")
     print ("v. 1.77: Story Update 3/3")
@@ -5879,7 +5897,7 @@ def Play():
             print("\n\n\n !----- CHOOSE YOUR SCENARIO -----!\n\n")
             
             for i in range(9):
-                print(str(i + 1) + ": " + charas[ids[i]]['name'])
+                print(str(i + 1) + ": " + charas[ids[i]]['name'] + ("*" if defeats[i] == 1 else ""))
                 
             print("0: Quit")
             hero_n = TryParse(input("\nChoice: "), -5) - 1
@@ -6015,10 +6033,15 @@ def Play():
     Dialogue(hero_id, "ending")
     input("\n\n\n !----- END -----!\n\n")
     
+    defeats[hero_n] = 1
+    Save();
+
+    
     return True
         
     
 if __name__ == "__main__":
+    Load()
     Dialogue("intro", "intro")
     while Play():
         pass
