@@ -14,6 +14,7 @@
     <sound>sound\snd_walk1</sound>
     <sound>sound\snd_walk2</sound>
     <sound>sound\snd_bazaar</sound>
+    <sound>sound\snd_treasure</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="dudes">
@@ -47,6 +48,7 @@
     </sprites>
     <sprites name="items">
       <sprite>sprites\spr_key</sprite>
+      <sprite>sprites\spr_treasure01</sprite>
     </sprites>
     <sprites name="movable">
       <sprite>sprites\spr_boulder</sprite>
@@ -100,6 +102,7 @@
     </objects>
     <objects name="items">
       <object>objects\obj_key</object>
+      <object>objects\obj_treasure01</object>
     </objects>
     <objects name="movable">
       <object>objects\obj_boulder</object>
@@ -112,6 +115,7 @@
   <rooms name="rooms">
     <room>rooms\rm_init</room>
     <rooms name="LevelsK">
+      <room>rooms\room18</room>
       <room>rooms\room17</room>
       <room>rooms\room16</room>
       <room>rooms\collapsed01</room>
