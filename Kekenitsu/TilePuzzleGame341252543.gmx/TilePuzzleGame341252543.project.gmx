@@ -114,6 +114,13 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
+    <rooms name="LevelsJ">
+      <room>rooms\Key_Islands</room>
+      <room>rooms\Dirty_Tunnel</room>
+      <room>rooms\Annihilation_Corridor</room>
+      <room>rooms\West_Tower</room>
+      <room>rooms\Buried_Fortress</room>
+    </rooms>
     <rooms name="LevelsK">
       <room>rooms\room18</room>
       <room>rooms\room17</room>
@@ -128,13 +135,6 @@
     <room>rooms\rm_lvl0001</room>
     <room>rooms\clocckwisetest</room>
     <room>rooms\template</room>
-    <rooms name="LevelsJ">
-      <room>rooms\Key_Islands</room>
-      <room>rooms\Dirty_Tunnel</room>
-      <room>rooms\Annihilation_Corridor</room>
-      <room>rooms\West_Tower</room>
-      <room>rooms\Buried_Fortress</room>
-    </rooms>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
